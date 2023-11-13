@@ -201,8 +201,8 @@ var jsonSource_SignedParcelslastupdated111323_14 = new ol.source.Vector({
 });
 jsonSource_SignedParcelslastupdated111323_14.addFeatures(features_SignedParcelslastupdated111323_14);
 var lyr_SignedParcelslastupdated111323_14 = new ol.layer.Vector({
-                declutter: true,
-                source:jsonSource_SignedParcelslastupdated111323_14, 
+                declutter: false,
+                source:cluster_SignedParcelslastupdated111323_14, 
                 style: style_SignedParcelslastupdated111323_14,
                 interactive: false,
                 title: '<img src="styles/legend/SignedParcelslastupdated111323_14.png" /> Signed Parcels (last updated 11/13/23)'
