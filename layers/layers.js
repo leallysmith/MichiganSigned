@@ -199,7 +199,10 @@ var features_SignedParcelslastupdated111323_14 = format_SignedParcelslastupdated
 var jsonSource_SignedParcelslastupdated111323_14 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_SignedParcelslastupdated111323_14.addFeatures(features_SignedParcelslastupdated111323_14);
+jsonSource_SignedParcelslastupdated111323_14.addFeatures(features_SignedParcelslastupdated111323_14);cluster_SignedParcelslastupdated111323_14 = new ol.source.Cluster({
+  distance: 10,
+  source: jsonSource_SignedParcelslastupdated111323_14
+});
 var lyr_SignedParcelslastupdated111323_14 = new ol.layer.Vector({
                 declutter: false,
                 source:cluster_SignedParcelslastupdated111323_14, 
