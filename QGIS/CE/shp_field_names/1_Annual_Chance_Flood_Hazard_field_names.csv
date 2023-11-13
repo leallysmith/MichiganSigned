@@ -1,0 +1,16 @@
+,field,full_field_name
+0,od,oid
+1,fldZn,fld_zone
+2,znSbty,zone_subty
+3,geometry,geometry
+4,grp,group
+5,hghRsk,high_risk
+6,lwRsk,low_risk
+7,lyrId,layer_id
+8,lyrKy,layer_key
+9,stbck,setback
+10,exFrmBldbl,exclude_from_buildable
+11,rsk02,risk_02
+12,rsk1,risk_1
+13,lbl,label
+14,name,name

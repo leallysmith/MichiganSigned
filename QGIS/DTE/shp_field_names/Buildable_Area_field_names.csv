@@ -1,0 +1,104 @@
+,field,full_field_name
+0,descrption,description
+1,bldblPrcnt,Buildable (%)
+2,AcresBldbl,Buildable (acre)
+3,name,name
+4,lbl,label
+5,geometry,geometry
+6,hghlghtSth,Highlight southern slope hazards
+7,sthrnAspct,Southern aspect range (degrees)
+8,incldLwstS,Include lowest slope in output drawing
+9,hghSlpStbc,High Slope Setback (m)
+10,rmvHghSlpF,Remove high slope from buildable area
+11,mxSlp,Max Slope (%)
+12,fld100YrSt,Flood 100-Year Setback (m)
+13,rmv100YrFr,Remove 100-year from buildable area
+14,fld500YrSt,Flood 500-Year Setback (m)
+15,rmv500YrFr,Remove 500-year from buildable area
+16,wtlndsStbc,Wetlands Setback (m)
+17,rmvWtlndFr,Remove wetlands from buildable area
+18,rdsStbckm,Roads Setback (m)
+19,rmvRdsFrmB,Remove roads from buildable area
+20,bldngsStbc,Buildings Setback (m)
+21,rmvBldngsF,Remove buildings from buildable area
+22,trnsmssnLn,Transmission Lines Setback (m)
+23,rmvLnsFrmB,Remove lines from buildable area
+24,rlwysStbck,Railways Setback (m)
+25,rmvRlwysFr,Remove railways from buildable area
+26,arprtRnwys,Airport Runways Setback (m)
+27,rmvRnwysFr,Remove runways from buildable area
+28,olAndNtrlG,Oil and Natural Gas Wells Setback (m)
+29,rmvOlgsWll,Remove oil/gas wells from buildable area
+30,cnsrvtnEsm,Conservation Easements Setback (m)
+31,rmvEsmntsF,Remove easements from buildable area
+32,crtclHbtts,Critical Habitats Setback (m)
+33,rmvHbttsFr,Remove habitats from buildable area
+34,pblcLndsSt,Public Lands Setback (m)
+35,rmvLndsFrm,Remove lands from buildable area
+36,hghSlpRel,High Slope - Relative (%)
+37,hghSlpAcrs,High Slope - Acres
+38,stbckRel,High Slope inc. Setback - Relative (%)
+39,hghSlpFtrC,High Slope - Feature Count
+40,fld100YrRe,Flood 100-Year - Relative (%)
+41,fld100YrAc,Flood 100-Year - Acres
+42,stbckRel0,Flood 100-Year inc. Setback - Relative (%)
+43,fld100YrFt,Flood 100-Year - Feature Count
+44,fld500YrRe,Flood 500-Year - Relative (%)
+45,fld500YrAc,Flood 500-Year - Acres
+46,stbckRel1,Flood 500-Year inc. Setback - Relative (%)
+47,fld500YrFt,Flood 500-Year - Feature Count
+48,wtlndsRel,Wetlands - Relative (%)
+49,wtlndsAcrs,Wetlands - Acres
+50,stbckRel2,Wetlands inc. Setback - Relative (%)
+51,wtlndsFtrC,Wetlands - Feature Count
+52,rdsRel,Roads - Relative (%)
+53,rdsAcrs,Roads - Acres
+54,stbckRel3,Roads inc. Setback - Relative (%)
+55,rdsFtrCnt,Roads - Feature Count
+56,bldngsRel,Buildings - Relative (%)
+57,bldngsAcrs,Buildings - Acres
+58,stbckRel4,Buildings inc. Setback - Relative (%)
+59,bldngsFtrC,Buildings - Feature Count
+60,trnsmssnL0,Transmission Lines - Relative (%)
+61,trnsmssnL1,Transmission Lines - Acres
+62,stbckRel5,Transmission Lines inc. Setback - Relative (%)
+63,trnsmssnL2,Transmission Lines - Feature Count
+64,rlwysRel,Railways - Relative (%)
+65,rlwysAcrs,Railways - Acres
+66,stbckRel6,Railways inc. Setback - Relative (%)
+67,rlwysFtrCn,Railways - Feature Count
+68,arprtRnwy0,Airport Runways - Relative (%)
+69,arprtRnwy1,Airport Runways - Acres
+70,stbckRel7,Airport Runways inc. Setback - Relative (%)
+71,arprtRnwy2,Airport Runways - Feature Count
+72,olAndNtrl0,Oil and Natural Gas Wells - Relative (%)
+73,olAndNtrl1,Oil and Natural Gas Wells - Acres
+74,stbckRel8,Oil and Natural Gas Wells inc. Setback - Relative (%)
+75,olAndNtrl2,Oil and Natural Gas Wells - Feature Count
+76,cnsrvtnEs0,Conservation Easements - Relative (%)
+77,cnsrvtnEs1,Conservation Easements - Acres
+78,stbckRel9,Conservation Easements inc. Setback - Relative (%)
+79,cnsrvtnEs2,Conservation Easements - Feature Count
+80,crtclHbtt0,Critical Habitats - Relative (%)
+81,crtclHbtt1,Critical Habitats - Acres
+82,stbckRel10,Critical Habitats inc. Setback - Relative (%)
+83,crtclHbtt2,Critical Habitats - Feature Count
+84,pblcLndsRe,Public Lands - Relative (%)
+85,pblcLndsAc,Public Lands - Acres
+86,stbckRel11,Public Lands inc. Setback - Relative (%)
+87,pblcLndsFt,Public Lands - Feature Count
+88,anlyssSrs,Analysis SRS
+89,bVrsn,BAA Version
+90,bldToSmAc,buildable_too_small_acres
+91,slpByAspct,Slope By Aspect
+92,mxSlpNrth,Max Slope - North (%)
+93,mxSlpSth,Max Slope - South (%)
+94,mxSlpEst,Max Slope - East (%)
+95,mxSlpWst,Max Slope - West (%)
+96,mxTrCvr,Max tree cover (%)
+97,trCvrStbck,Tree Cover Setback (m)
+98,rmvTrCvrFr,Remove tree cover from buildable area
+99,trCvrRel,Tree Cover - Relative (%)
+100,trCvrAcrs,Tree Cover - Acres
+101,stbckRel12,Tree Cover inc. Setback - Relative (%)
+102,trCvrFtrCn,Tree Cover - Feature Count

@@ -1,0 +1,11 @@
+,field,full_field_name
+0,slpMn,slope_min
+1,slpMx,slope_max
+2,aspct,aspect
+3,name,name
+4,slpSrc,slope_source
+5,lyrId,layer_id
+6,lyrKy,layer_key
+7,exFrmBldbl,exclude_from_buildable
+8,lbl,label
+9,geometry,geometry
