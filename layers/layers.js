@@ -218,7 +218,7 @@ var jsonSource_ParcelNames_15 = new ol.source.Vector({
 });
 jsonSource_ParcelNames_15.addFeatures(features_ParcelNames_15);
 var lyr_ParcelNames_15 = new ol.layer.Vector({
-                declutter: true,
+                declutter: false,
                 source:jsonSource_ParcelNames_15, 
                 style: style_ParcelNames_15,
                 interactive: false,
