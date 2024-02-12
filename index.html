@@ -15,29 +15,13 @@
         <style>
         .ol-geocoder.gcd-gl-container {
             top: 100px!important;
-            left: .5em!important;
-            width: 2.1em!important;
-            height: 2.1em!important;
-        }
-        .ol-geocoder .gcd-gl-container{
-            width: 2.1em!important;
-            height: 2.1em!important;
-        }
-        .ol-geocoder .gcd-gl-control{
-            width: 2.1em!important;
-        }
-        .ol-geocoder .gcd-gl-expanded {
-            width: 15.625em!important;
-            height: 2.1875em;
+            left: 8px!important;
         }
         .ol-touch .ol-geocoder.gcd-gl-container{
             top: 130px!important;
         }
-        .ol-geocoder .gcd-gl-btn {
-            width: 1.375em!important;
-            height: 1.375em!important;
-            top: .225em!important;
-            background-image: none!important;
+        .ol-geocoder .gcd-gl-btn:after{
+            display:none;
         }
         </style>
 <style>
@@ -109,9 +93,14 @@
 .measure-control {
   top: 65px;
   left: .5em;
+  display: flex;
 }
 .ol-touch .measure-control {
   top: 80px;
+}
+.measure-control label {
+  padding: 1px;
+  padding-right: 4px;
 }
 </style>
         <style>
@@ -140,8 +129,8 @@
         <script src="resources/ol3-search-layer.js"></script>
         <script src="./resources/ol-layerswitcher.js"></script>
         <script src="resources/ol-geocoder.js"></script>
-        <script src="layers/CoalClosureEnergyCommunities_4.js"></script><script src="layers/MSANonMSAsthatareEnergyCommunities_5.js"></script><script src="layers/AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6.js"></script><script src="layers/AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7.js"></script><script src="layers/Category1Eligibility_8.js"></script><script src="layers/MichiganUtilities_9.js"></script><script src="layers/Michigan_10.js"></script><script src="layers/MichiganCounties_11.js"></script><script src="layers/MichiganCountyNames_12.js"></script><script src="layers/SignedParcelslastupdated111323_13.js"></script><script src="layers/SignedParcelslastupdated111323_14.js"></script><script src="layers/ParcelNames_15.js"></script>
-        <script src="styles/CoalClosureEnergyCommunities_4_style.js"></script><script src="styles/MSANonMSAsthatareEnergyCommunities_5_style.js"></script><script src="styles/AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6_style.js"></script><script src="styles/AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7_style.js"></script><script src="styles/Category1Eligibility_8_style.js"></script><script src="styles/MichiganUtilities_9_style.js"></script><script src="styles/Michigan_10_style.js"></script><script src="styles/MichiganCounties_11_style.js"></script><script src="styles/MichiganCountyNames_12_style.js"></script><script src="styles/SignedParcelslastupdated111323_13_style.js"></script><script src="styles/SignedParcelslastupdated111323_14_style.js"></script><script src="styles/ParcelNames_15_style.js"></script>
+        <script src="layers/CoalClosureEnergyCommunities_4.js"></script><script src="layers/MSANonMSAsthatareEnergyCommunities_5.js"></script><script src="layers/AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6.js"></script><script src="layers/AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7.js"></script><script src="layers/Category1Eligibility_8.js"></script><script src="layers/MichiganUtilities_9.js"></script><script src="layers/Michigan_10.js"></script><script src="layers/MichiganCounties_11.js"></script><script src="layers/MichiganCountyNames_12.js"></script><script src="layers/SignedParcelsLastUpdated21224_13.js"></script><script src="layers/SignedParcelNamesLastUpdated21224_14.js"></script>
+        <script src="styles/CoalClosureEnergyCommunities_4_style.js"></script><script src="styles/MSANonMSAsthatareEnergyCommunities_5_style.js"></script><script src="styles/AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6_style.js"></script><script src="styles/AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7_style.js"></script><script src="styles/Category1Eligibility_8_style.js"></script><script src="styles/MichiganUtilities_9_style.js"></script><script src="styles/Michigan_10_style.js"></script><script src="styles/MichiganCounties_11_style.js"></script><script src="styles/MichiganCountyNames_12_style.js"></script><script src="styles/SignedParcelsLastUpdated21224_13_style.js"></script><script src="styles/SignedParcelNamesLastUpdated21224_14_style.js"></script>
         <script src="./layers/layers.js" type="text/javascript"></script> 
         <script src="./resources/Autolinker.min.js"></script>
         <script src="./resources/qgis2web.js"></script>
