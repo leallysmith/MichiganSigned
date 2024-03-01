@@ -17,8 +17,8 @@ var style_SignedParcelNamesLastUpdated21224_14 = function(feature, resolution){
     var offsetX = 8;
     var offsetY = 3;
     var placement = 'point';
-    if (feature.get("Parcel") !== null) {
-        labelText = String(feature.get("Parcel"));
+    if (feature.get("Opportunity Name") !== null) {
+        labelText = String(feature.get("Opportunity Name"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
