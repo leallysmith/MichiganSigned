@@ -194,7 +194,7 @@ var lyr_SignedParcelsLastUpdated21224_13 = new ol.layer.Vector({
                 source:cluster_SignedParcelsLastUpdated21224_13, 
                 style: style_SignedParcelsLastUpdated21224_13,
                 interactive: false,
-                title: '<img src="styles/legend/SignedParcelsLastUpdated21224_13.png" /> Signed Parcels (Last Updated 3/1/24)'
+                title: '<img src="styles/legend/SignedParcelsLastUpdated21224_13.png" /> Signed Parcels (Last Updated 3/20/24)'
             });
 var format_SignedParcelNamesLastUpdated21224_14 = new ol.format.GeoJSON();
 var features_SignedParcelNamesLastUpdated21224_14 = format_SignedParcelNamesLastUpdated21224_14.readFeatures(json_SignedParcelNamesLastUpdated21224_14, 
@@ -208,7 +208,7 @@ var lyr_SignedParcelNamesLastUpdated21224_14 = new ol.layer.Vector({
                 source:jsonSource_SignedParcelNamesLastUpdated21224_14, 
                 style: style_SignedParcelNamesLastUpdated21224_14,
                 interactive: true,
-                title: '<img src="styles/legend/SignedParcelNamesLastUpdated21224_14.png" /> Signed Parcel Names (Last Updated 3/1/24)'
+                title: '<img src="styles/legend/SignedParcelNamesLastUpdated21224_14.png" /> Signed Parcel Names (Last Updated 3/20/24)'
             });
 var group_48eLowIncomeCredits = new ol.layer.Group({
                                 layers: [lyr_AdditionalSelectionCriteriaGeographicOption2PersistentPovertyCounty_6,lyr_AdditionalSelectionCriteriaGeographicOption1CEJSTEnergy_7,lyr_Category1Eligibility_8,],
